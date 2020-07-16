@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300');
+body {
+    font-family: 'DIN Next LT Arabic';
+    font-weight: 400;
+    font-style: normal;
+}
+@media (min-width: 1200px){
+    .container {
+        width: 800px;
+    }
+}
+a:hover, a:focus {
+    text-decoration: none !important;
+}
+.cat_title{
+    font-size: 26px;
+    font-weight: 600;
+    color: #026374;
+    padding-top: 45px;
+    margin-top: 0;
+}
+h3 span{
+    color: #e29a2b;
+}
+h4{
+    color: #026374;
+    margin: 45px 0;
+    line-height: 26px;
+    font-weight: 600;
+    width: 58.33333333%;
+}
+.return_main{
+    position: absolute;
+    top: 95px;
+    right: 0;
+}
+.return_main a{
+    color: #ffffff;
+    font-size: 16px;
+}
+.return{
+    transform:rotateY(180deg);
+}
+/* android section */
+.android{
+    background-color: #026374;
+}
+.android_contect{
+    min-height: 738px;
+    position: relative;
+    padding-top: 65px;
+}
+.android_contect h4{
+    color: #ffffff;
+}
+.android_contect .logo{
+    text-align: center;
+}
+.android_contect .logo h3{
+    font-size: 21px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.android_contect .cat_title{
+    color: #ffffff;
+}
+.android_contect .android_mob{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.listen{
+    position: absolute;
+    left: 338px;
+    bottom: 30px;
+}
+.android_contect .listen_txt{
+    color: #ffffff;
+    padding-top: 35px;
+    margin-bottom: 65px;
+}
+
+/* ipad iphone section */
+.ipad_contect{
+    min-height: 725px;
+    position: relative;
+}
+.ipad_contect h4{
+    float: left;
+    margin: 10px;
+}
+.ipad_contect .iphone_pad{
+    position: absolute;
+    top: 53%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+}
+.listen_icon{
+    right: 40%;
+    position: absolute;
+    bottom: -65px;
+}
+.listen_txt{
+    font-size: 13px;
+    padding-top: 5px;
+    color: #026374;
+    margin-bottom: 0;
+}
+.listen_txt span{
+    color: #e29a2b;
+    font-weight: 600;
+}
+.app_store{
+    left: 0;
+    position: absolute;
+    bottom: -65px;
+}
+/* phoneNo section */
+.phoneNo{
+    background-color: #eaf0f0;
+}
+.phoneNo_contect{
+    min-height: 505px;
+    position: relative;
+}
+.phoneNo_contect .mobile_no{
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+}
+.phoneNo_contect h1{
+    display: inline-block;
+    color: #026374;
+    font-weight: 600;
+    margin-top: 0;
+    margin-left: 15px;
+}
+.phone_icon{
+    margin-top: -15px;
+}
+.mobile_div{
+    position: initial;
+}
+@media (max-width: 767px){
+    .return, .logo img{
+        display: initial;
+    }
+    .return_main {
+        top: 50px;
+    }
+    .android_contect .logo h3 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .cat_title {
+        font-size: 22px;
+        padding-top: 30px;
+    }
+    h4 {
+        line-height: 22px;
+        font-size: 16px;
+        width: 100%;
+        margin: 15px 0;
+    }
+    .listen{
+        display: none;
+    }
+    .android_contect .listen_txt {
+        padding-top: 0px;
+        margin-bottom: 30px;
+    }
+    .google_play{
+        width: 33%;
+    }
+    .ipad_contect h4 {
+        float: initial;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .ipad_contect .iphone_pad {
+        position: initial;
+        top: initial;
+        right: initial;
+        -webkit-transform: initial;
+    }
+    .listen_icon, .app_store {
+        position: initial;
+        text-align: center;
+        float: initial;
+        margin: 0 auto;
+    }
+    .listen_icon img{
+        margin: 0 auto;
+    }
+    .app_store {
+        margin-top: 20px;
+        margin-bottom: 35px;
+    }
+    .ipad_contect {
+        min-height: 590px;
+    }
+    .phoneNo_contect h1 {
+        font-size: 28px;
+    }
+    .phone_icon {
+        margin-top: -15px;
+        display: inline-block;
+        width: 45px;
+    }
+    .phoneNo_contect .mobile_no {
+        position: initial;
+        margin: 15px auto 0;
+    }
+}

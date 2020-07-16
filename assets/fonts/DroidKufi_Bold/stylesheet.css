@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'DroidKufi Bold';
+	src: url('DroidKufi-Bold.eot');
+	src: url('DroidKufi-Bold.eot?#iefix') format('embedded-opentype'),
+		url('DroidKufi-Bold.woff') format('woff'),
+		url('DroidKufi-Bold.ttf') format('truetype');
+}

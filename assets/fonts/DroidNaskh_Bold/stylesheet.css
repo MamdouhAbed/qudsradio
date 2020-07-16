@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'DroidNaskh Bold';
+	src: url('DroidNaskh-Bold.eot');
+	src: url('DroidNaskh-Bold.eot?#iefix') format('embedded-opentype'),
+		url('DroidNaskh-Bold.woff') format('woff'),
+		url('DroidNaskh-Bold.ttf') format('truetype');
+}
